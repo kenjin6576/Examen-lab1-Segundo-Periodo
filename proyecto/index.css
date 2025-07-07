@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px) {
+    .titulo {
+        height: auto;
+        padding: 20px 10px;
+        font-size: medium;
+        flex-direction: column;
+    }

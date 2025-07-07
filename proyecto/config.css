@@ -1,0 +1,81 @@
+
+.comandos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+.titulo {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+
+.comandos h1 {
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.init {
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+
+.add {
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+.push {
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+.status {
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+.commit {
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+.pull {
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 400px) {
+    .titulo {
+        height: auto;
+        padding: 20px 10px;
+        font-size: medium;
+        flex-direction: column;
+    }
+}
